@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, helvetica, sans-serif;
+    background: #eee;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    background: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    margin-right: 30px;
+    display: block;
+}
+
+nav a:hover,
+nav a:active {
+    background: firebrick;
+}
+
+/* NAV MENU FLEX NAV */
+
+.flex_nav {
+    display: flex;
+    margin: 0px;
+    flex-flow: row wrap;
+}
+
+/* Popup Log in Create an account */
+
+.open-button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 40px;
+    border: 1px solid #fff;
+    opacity: 0.8;
+    margin-top: 8px;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.open-button:hover {
+    background: firebrick;
+}
+
+.form-popup {
+    display: none;
+    z-index: 9;
+    position: fixed;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    top: auto;
+    border: 1px solid green;
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 0px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+
+.form-container .btn {
+    background-color: forestgreen;
+    color: #fff;
+    padding: 16px 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: red;
+}
+
+.form-popup label {
+    text-align: center;
+}
+
+/* Main Section */
+
+.main {
+    margin: 0px; 
+    background: linear-gradient(black, #ffff);  
+    padding: 1px;   
+    height: 100vh;
+}
+
+.header {
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.header h3 {
+    font-size: 28px;
+    margin: 0 100px;
+}
